@@ -1,0 +1,22 @@
+[colors]
+# 颜色既可以写“名字”，也可以直接写 ANSI SGR 码（例如 "1;36"）
+header_border = "bright_magenta"
+song_info = "bright_green"
+time = "cyan"
+section_title = "bright_yellow"
+current_lyric = "bright_cyan"
+current_trans = "bright_black"
+next_lyric = "white"
+next_trans = "bright_black"
+dim = "bright_black"
+
+[ui]
+width = 80
+progress_bar_length = 50
+progress_filled = "█"
+progress_empty = "░"
+show_next = true
+
+[loop]
+poll_interval = 0.10
+render_interval = 0.10
