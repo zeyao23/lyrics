@@ -1,7 +1,8 @@
 # 实时歌词追踪器
 
 一个使用 Python 编写的实时歌词追踪工具，通过 `playerctl` 获取当前播放的音乐信息，并从网易云音乐 API 获取歌词和翻译，在终端实时显示。
-
+##我博客
+[Linux歌词同步工具 - Zeyao Dev](https://www.zeyao.top/post.php?id=6979afb8158c4)
 ## 功能特点
 
 - 自动检测当前播放的音乐
@@ -102,5 +103,4 @@ export LYRIC_TRACKER_CONFIG=/path/to/config.toml
 2. **找不到歌曲**: 歌曲可能在网易云音乐中不存在，或者搜索关键词不匹配
 
 3. **歌词不同步**: 可能是API返回的时间戳不准确，或者播放器位置信息有延迟
-我博客
-[Linux歌词同步工具 - Zeyao Dev](https://www.zeyao.top/post.php?id=6979afb8158c4)
+
